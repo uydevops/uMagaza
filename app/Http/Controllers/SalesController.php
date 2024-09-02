@@ -119,7 +119,7 @@ class SalesController extends Controller
             $response = $this->client->post('/index.php', [
                 'form_params' => [
                     'islem' => 1,
-                    'user' => '',
+                    'user' => '',  
                     'pass' => '',        
                     'mesaj' => $message,
                     'numaralar' => $phoneNumber,
